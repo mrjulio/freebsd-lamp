@@ -3,7 +3,6 @@
 #
 # PureFTPd
 #
-# @TODO test w/ mysql
 
 if [ $(pkg_info | grep -c ^pure-ftpd-) -eq 0 ]
 then

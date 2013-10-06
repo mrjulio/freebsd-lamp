@@ -3,7 +3,7 @@
 
 ## Why ?
 
-I am using FreeBSD as my LAMP server and every time I needed to create a new instance I had to do it manually 
+I am using FreeBSD as my LAMP server and every time I needed to create a new instance I had to do it manually
 again and again. This takes time and eventually you get bored of doing this :). Solution: unattended LAMP setup.
 
 
@@ -25,24 +25,24 @@ If you don't need the `src` or you already got it comment the lines inside the f
 ## Install
 
 Before running the `2_install.sh` you should check the readme files found in each sub-directory.
-Comment those ports that you don't need to install.
+Uncomment those ports that you want to be installed.
 
 
 ## Finish
 
-The last script to run is `3_finish.sh`. It runs a script to secure the mysql installation. 
-It needs user feedback.
+The last script to run is `3_finish.sh`.
+It runs a script to secure the mysql installation and it needs user feedback.
 
 
 ## Logs
 
-In the root directory you have a `install_log` file which records 
+In the root directory you have a `install_log` file which records
 the time when a process started like install, skip, finish.
 
 
 ## Time estimations
 
-I have tested the installation on a VirtualBox instance with 2GB RAM and 1 CPU @ 2.2GHz on a SSD.
+I have tested the installation on a standard VirtualBox instance with 2GB RAM and 1 CPU @ 2.2GHz on a SSD.
 
 Results with default installation for ports that took more than 5 minutes:
 

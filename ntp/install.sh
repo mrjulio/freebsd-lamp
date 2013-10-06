@@ -4,8 +4,6 @@
 # NTP
 #
 
-# @TODO CHECK http://pc-freak.net/blog/how-to-install-openntpd-ntp-server-to-synchronize-system-clock-on-freebsd-for-better-security/
-
 if [ $(pkg_info | grep -c ^openntpd-) -eq 0 ]
 then
     echoStatus $COLOR_BLUE '[INSTALL] OpenNTP'
