@@ -1,0 +1,50 @@
+
+##################
+#  CUSTOM ALIAS  #
+##################
+
+# Rewrite ls for pretty colors
+alias l='ls -lahG'
+alias ll='ls -lahG'
+
+# Fast change up
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Go back in path
+alias ,='cd -'
+
+# history
+alias h='history'
+
+# clear
+alias c='clear && echo -e "\n\n\n\n\n"'
+
+# nano
+alias n='nano'
+
+# Search for a process name
+alias psg='ps ax | grep -v grep | grep '
+
+# Ten highest memory usage processes
+alias psram='ps aux | sort -rnk 4 | head'
+
+# Extended process status without ps itself
+alias ps='ps aux | grep -v "ps aux"'
+
+# Funny
+alias wtf='man'
+
+
+### GIT ###
+alias gs='git status'
+alias gc='git commit -m'
+alias gco='git checkout'
+alias gl='git log --oneline --graph'
+alias gsh='git stash'
+alias gsp='git stash pop'
+alias gpm='git pull origin master'
+alias gd='git diff'
+alias gdh='git diff HEAD'
