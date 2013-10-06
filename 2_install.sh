@@ -25,4 +25,5 @@ echo -en "\n$(date): Start *NEW* installation\n" >> install_log
 #. pureftp/install.sh
 #. zabbix/install.sh
 #. samba/install.sh
+#. phalcon/install.sh
 #. htop/install.sh -- Fails w/o linux support
