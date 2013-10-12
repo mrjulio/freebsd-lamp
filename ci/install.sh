@@ -37,6 +37,12 @@ then
 
     pear install phpunit/phpdcd-0.9.3
 
+    pear config-set auto_discover 1
+    pear install pear.netpirates.net/Autoload
+
+    pear config-set auto_discover 1
+    pear install pear.apigen.org/apigen
+
     echoStatus $COLOR_GREEN '[FINISH] ci'
 else
     echoStatus $COLOR_WHITE '[SKIP] ci'
