@@ -9,7 +9,7 @@ then
     echoStatus $COLOR_BLUE '[INSTALL] nano'
 
     cd /usr/ports/editors/nano
-    make install clean
+    make -DBATCH install clean
     cp $SCRIPT_PATH/nano/.nanorc /home/$BSD_USER/.nanorc
     chown $BSD_USER /home/$BSD_USER/.nanorc
 
