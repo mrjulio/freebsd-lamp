@@ -19,8 +19,8 @@ else
     mkdir /storage/db
     mkdir /storage/conf
     chmod -R 777 /storage
-    touch /storage/www/public/index.html
     echo 'Hello!' > /storage/www/public/index.html
+    echo '<?php phpinfo();' > /storage/www/server/phpinfo.php
 
     echoStatus $COLOR_GREEN '[FINISH] /storage'
 fi
