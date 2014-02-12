@@ -25,7 +25,7 @@ SSH_PORT='22022'
 
 SCRIPT_PATH=$(pwd)
 
-ADMINER_VERSION='3.7.1'
+ADMINER_VERSION='4.0.1'
 
 GIT_USER='julio'
 GIT_EMAIL='julio@gmail.com'
