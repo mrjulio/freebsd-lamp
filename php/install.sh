@@ -8,7 +8,7 @@ if [ $(pkg_info | grep -c ^php5-5) -eq 0 ]
 then
     echoStatus $COLOR_BLUE '[INSTALL] PHP'
 
-    cd /usr/ports/lang/php5
+    cd /usr/ports/lang/php55
     make -DBATCH -DWITH_FPM install clean
     echo 'php_fpm_enable="YES"' >> /etc/rc.conf
     cp /usr/local/etc/php.ini-production /usr/local/etc/php.ini
@@ -24,7 +24,7 @@ then
 
     echo 'WITHOUT_X11=yes' >> /etc/make.conf
 
-    cd /usr/ports/lang/php5-extensions/
+    cd /usr/ports/lang/php55-extensions/
     PHP_OPT=""
     for extension in "${PHP_EXT[@]}"
     do
