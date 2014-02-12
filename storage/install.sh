@@ -16,6 +16,8 @@ else
     mkdir /storage/www/server
     mkdir /storage/git
     mkdir /storage/ftp
+    mkdir /storage/db
+    mkdir /storage/conf
     chmod -R 777 /storage
     touch /storage/www/public/index.html
     echo 'Hello!' > /storage/www/public/index.html
