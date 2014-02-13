@@ -10,7 +10,8 @@ echo -en "\n$(date): Start *NEW* installation\n" >> install_log
 #. mysql/install.sh
 #. nginx/install.sh
 #. php/install.sh
-#. apc/install.sh
+#. apc/install.sh #deprecated in php55
+#. apcu.install.sh
 #. ntp/install.sh
 #. rsync/install.sh
 #. sudo/install.sh
