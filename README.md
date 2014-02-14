@@ -7,6 +7,11 @@ I am using FreeBSD as my LAMP server and every time I needed to create a new ins
 again and again. This takes time and eventually you get bored of doing this :). Solution: unattended setup.
 
 
+## Version
+
+Currently all scripts are in the process of migrating from 9.x to 10.x installation.
+
+
 ## Step-by-step
 
 1. Copy files inside a fresh FreeBSD installation.
