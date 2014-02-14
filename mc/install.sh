@@ -4,7 +4,7 @@
 # MC
 #
 
-if [ $(pkg_info | grep -c ^mc-) -eq 0 ]
+if [ $(pkg info | grep -c ^mc-) -eq 0 ]
 then
     echoStatus $COLOR_BLUE '[INSTALL] MC'
 
