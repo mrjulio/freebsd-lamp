@@ -22,7 +22,8 @@ then
 innodb_file_per_table\
 character-set-server=utf8\
 collation-server=utf8_general_ci\
-skip-character-set-client-handshake:g' /usr/local/my.cnf
+skip-character-set-client-handshake\
+bind-address=127.0.0.1:g' /usr/local/my.cnf
 
     /usr/local/etc/rc.d/mysql-server restart
 
