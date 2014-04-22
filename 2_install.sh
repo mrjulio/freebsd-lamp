@@ -18,6 +18,7 @@ echo -en "\n$(date): Start *NEW* installation\n" >> install_log
 #. ci/install.sh
 #. git/install.sh
 #. mc/install.sh
+#. memcached/install.sh # not fully tested
 #. ssh/install.sh
 #. nano/install.sh
 #. lsof/install.sh
