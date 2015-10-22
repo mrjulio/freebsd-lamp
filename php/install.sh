@@ -30,7 +30,7 @@ then
     do
       PHP_OPT=$PHP_OPT' -DWITH_'$extension
     done
-    PHP_INSTALL_EXTENSIONS='make install -DBATCH '$PHP_OPT' install clean'
+    PHP_INSTALL_EXTENSIONS='make install -DBATCH '$PHP_OPT' clean'
     $PHP_INSTALL_EXTENSIONS
 
     echoStatus $COLOR_GREEN '[FINISH] PHP'
